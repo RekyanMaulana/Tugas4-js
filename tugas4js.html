@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Js Tugas 4</title>
+</head>
+<body>
+    <div class="card">
+        <span class="heading">CALCULATOR</span>
+        <form action="" id="calculator" class="form"> 
+            <label for="">Number 1 : </label>
+            <input placeholder="Enter Number" class="input" name="number1" type="text">
+            <label for="">Number 2 : </label>
+            <input placeholder="Enter Number" class="input" name="number2" type="text">
+            <label for="">Result : </label>
+            <input type="number" class="input" name="result" disabled>
+            <table>
+                <tr>
+                    <td><button class="btn" type="button" name="btn_tambah" onclick="tambah()">+</button></td>
+                    <td><button class="btn" type="button" name="btn_kurang" onclick="kurang()">-</button></td>
+                    <td><button class="btn" type="button" name="btn_kali" onclick="kali()">x</button></td>
+                    <td><button class="btn" type="button" name="btn_bagi" onclick="bagi()">:</button></td>
+                    <td><button class="btn" type="button" name="btn_pangkat" onclick="pangkat()">^</button></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <button class="btn" type="reset">Clear</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
